@@ -1,2 +1,2 @@
 #!/bin/bash
-cat /etc/passwd | sort | cut -f x -d \/
+cat /etc/passwd | sort | grep -r ^*\: 
