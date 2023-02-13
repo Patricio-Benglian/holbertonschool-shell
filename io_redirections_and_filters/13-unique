@@ -1,2 +1,2 @@
 #!/bin/bash
-read list | uniq $list
+read list | uniq $list | cat $list
