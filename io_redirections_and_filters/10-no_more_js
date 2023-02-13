@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -r --file=FILE *.js . | rm -r
+find -type f . | grep -r --file=FILE *.js . | rm -r
