@@ -1,2 +1,2 @@
 #!/bin/bash
-read $input | tr `A` `Z` | tr `c` `e`
+read $input | tr "A" "Z" | tr "c" "e"
