@@ -1,2 +1,2 @@
 #!/bin/bash
-find . *.gif -type f | sort | tr -d \.gif  
+find . *.gif -type f | sort | cut -d . -f 1,2
