@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(printf $($TRUENAME+128))"
+echo "((128+$TRUEKNOWLEDGE))"
